@@ -9,6 +9,10 @@ EC2Vec is a machine learning tool that embeds Enzyme Commission (EC) numbers int
 ## Input data to the model
 EC2Vec takes raw EC numbers as input. 
 The ```./Datasets/EC_numbers.csv``` file contains the EC numbers used for training the model.
+## Get EC number embeddings using the trained model
+The trained model embeds each EC number as a 1024-dim vector.
+To get the EC number embeddings using the trained model, simply run ...
+
 
 ## Remark
 EC2Vec can process incomplete EC numbers, such as 3.4.25.-, 1.8.-.-, 6.-.-.-, and 0.0.0.0 (spontaneous reaction).
