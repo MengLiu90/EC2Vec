@@ -12,6 +12,7 @@ The ```./Datasets/EC_numbers.csv``` file contains the EC numbers used for traini
 ## Get EC number embeddings using the trained model
 The trained model embeds each EC number as a 1024-dim vector.
 To get the EC number embeddings using the trained model, simply run ...
+## Train your own EC2Vec 
 
 
 ## Remark
