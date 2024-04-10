@@ -18,7 +18,7 @@ Then simply run ```get_ec2vec_embeddings.py```.
 
 The generated embedding file will be saved under ```./Embedding_Results/``` directory as ```embedded_EC_number.csv``` file.
 ## Train your own EC2Vec 
-
+To train the EC2Vec model using your own data, 
 
 ## Remark
 EC2Vec can process incomplete EC numbers, such as 3.4.25.-, 1.8.-.-, 6.-.-.-, and 0.0.0.0 (spontaneous reaction).
