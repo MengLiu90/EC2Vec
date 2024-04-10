@@ -11,7 +11,10 @@ EC2Vec takes raw EC numbers as input.
 The ```./Datasets/EC_numbers.csv``` file contains the EC numbers used for training the model.
 ## Get EC number embeddings using the trained model
 The trained model embeds each EC number as a 1024-dim vector.
-To get the EC number embeddings using the trained model, simply run ...
+
+To get the EC number embeddings using the trained model, put your EC number data under ```./Datasets/``` directory, please follow ```./Datasets/EC_numbers.csv``` for the format. 
+
+Then simply run ```get_ec2vec_embeddings.py```. The embedding file will be saved under ```./Embedding_Results/``` directory.
 ## Train your own EC2Vec 
 
 
