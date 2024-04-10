@@ -22,7 +22,7 @@ To train the EC2Vec model using your own data, put your EC number data under ```
 
 Then simply run ```ec2vec.py```.
 
-The trained model using your data will be saved under ```./Trained_model/``` directory as ```model.pth``` file.
+The trained model based on your data will be saved under ```./Trained_model/``` directory as ```model.pth``` file.
 
 Note that, we used 1024 as the embedding size for an EC number. You can adjust this dimension by changing the ```hidden_sizes``` parameter in the code.
 
