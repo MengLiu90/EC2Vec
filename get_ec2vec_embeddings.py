@@ -73,11 +73,9 @@ class MultimodalAutoencoder(nn.Module):
 
 print('Getting embeddings...')
 dataset = ECDataset('Datasets/EC_numbers.csv')
-df_ = pd.read_csv('Datasets/EC_numbers.csv')
-df_[['POS_1', 'POS_2', 'POS_3', 'POS_4']] = df_['EC_number'].str.split('.', expand=True)
+
 # number of unique characters in each position of the EC numbers
-input_sizes = [len(df_['POS_1'].unique()), len(df_['POS_2'].unique()),
-               len(df_['POS_3'].unique()), len(df_['POS_4'].unique())]
+input_sizes = [8, 28, 34, 455]
 hidden_sizes = [16, 64, 64, 1024]
 
 model = MultimodalAutoencoder(input_sizes, hidden_sizes)
