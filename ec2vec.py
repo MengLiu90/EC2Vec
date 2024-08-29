@@ -87,7 +87,7 @@ save_dir = 'Trained_model'
 if not os.path.isdir(save_dir):
     os.mkdir(save_dir)
 # Define batch size and number of workers for data loading
-batch_size = 2
+batch_size = 32
 num_epochs = 200
 seed = random.randint(1, 500)
 
