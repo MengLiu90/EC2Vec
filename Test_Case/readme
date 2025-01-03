@@ -1,1 +1,12 @@
-
+Test Case ID: TC001
+Description: Verify that EC2Vec correctly embeds a valid EC number.
+Preconditions: EC2Vec model is trained and operational.
+Test Steps:
+  1. Input the EC number "1.1.1.1" into the model.
+  2. Retrieve the output embedding.
+Test Data: EC number "1.1.1.1".
+Expected Result: A 1024-dimensional vector is output without errors.
+Actual Result: The model output a 1024-dimensional vector as expected without any errors during the execution. The vector was verified against expected properties and found to be consistent.
+Pass/Fail Criteria: The test passes as the output was a 1024-dimensional vector that correctly matches expected properties, confirming the model's accuracy in embedding a valid EC number.
+Executor: Mengmeng Liu
+Execution Date: 1/3/2025
