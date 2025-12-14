@@ -2,9 +2,9 @@
 EC2Vec is a machine learning tool that embeds Enzyme Commission (EC) numbers into vector representations.
 ## Dependencies
 1. pytorch 1.10.0
-3. numpy 1.19.2
-4. sklearn 0.23.2
-5. pandas 1.1.3
+2. numpy 1.19.2
+3. sklearn 0.23.2
+4. pandas 1.1.3
 
 ## Input data to the model
 EC2Vec takes raw EC numbers as input. 
